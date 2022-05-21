@@ -1,0 +1,112 @@
+html{
+    padding: 0;
+    margin: 0;
+   }
+    body{
+         font-family: 'Roboto', sans-serif;
+        background-color: #12b1e1;
+       } 
+       
+       
+       /* splash screen css starts here */
+       #loading{ 
+           position: fixed; 
+           width: 100%; 
+           height: 100vh;
+           background: #e4eff2 url("https://giphy.com/gifs/icon-loading-beaker-11FuEnXyGsXFba") no-repeat center center; 
+           z-index: 99999;
+       }
+       /* splash screen css ends here */ 
+       /* navbar css starts here */
+       .bg-light{ 
+           background-color: #e8ffff!important;
+       } 
+       .navbar-brand{ 
+           font-family: 'Sansita Swashed', cursive;
+           font-size: 1.5rem;
+            color: #366d5e!important;
+           }
+            .nav-link{ 
+                color: #366d5e!important;
+                 font-family: 'Noto Sans JP', sans-serif;
+               } 
+               .nav-link:hover{ background-color: #bfdff0;
+               }
+               /* navbar css ends here */ 
+               /*here content css starts here */
+               .hero-content{ 
+                   height: 100vh; 
+                   background-color: #366d5e; 
+                   color: #ffffff; 
+                   padding: 3rem;  
+                   
+                   border-bottom-left-radius: 45rem; 
+                   margin-bottom: 1vh;
+               
+               } 
+                   .hero-img{
+                        height: 70vh; 
+                        width: 100%;
+                       } 
+                       
+                       @media only screen and (max-width: 766px) { 
+                           .hero-img {
+                                display: none;
+                                }
+                               } 
+                               
+                   .get-started{
+                        border-radius: 0.5rem; 
+                        padding: 1rem 2rem; 
+                        font-size: 162%; 
+                        background-color: #e8ffff; 
+                        color: #366d5e!important; 
+                        transition: 0.3s;
+                       } 
+                   .get-started:hover{
+                            text-decoration: none; 
+                            background-color: rgb(109, 232, 189);
+                            }
+                            /*content css starts here */
+                             /*get-started-buttons css starts here*/
+                   .get-started-content{ 
+                                 height: 60vh; 
+                                 background-color: #1d6753; 
+                                 border-top-left-radius: 42rem; 
+                                 border-top-right-radius: 42rem; 
+                                 border-bottom-right-radius: 42rem; 
+                                 border-bottom-left-radius: 42rem;
+                               } 
+                               
+                   .get-started-content .row{
+                                    padding: 25vh 0;
+                                   } 
+                   .get-started-content a{ 
+                                       border-radius: 0.5rem;
+                                        padding: 1rem 2rem; 
+                                        font-size: 162%;
+                                       background-color: #eaecee;
+                                       color: rgb(114, 170, 156)!important; 
+                                        transition: 0.3s;} 
+                   .get-started-content a:hover{ 
+                       background-color: #bfdff0;
+                        text-decoration: none;
+                       
+                       }
+                       /* get-started-buttons css end here*/ 
+                       /* footer css starts here */
+                       footer{
+                           background-color: #657256;
+                       }
+                        .social-icons li{
+                             list-style: none;
+                             display: inline; 
+                             padding: 0.5rem;
+                           } 
+                           .github{ 
+                               color: #24292e;
+                           } 
+                           .linkedin{
+                                color: #0077b5;
+                               }
+                                
